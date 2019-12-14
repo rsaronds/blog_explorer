@@ -7,9 +7,8 @@ import collections
 
 Post = collections.namedtuple('Post', 'id title content published view_count')
 base_url = 'http://consumer_services_api.talkpython.fm/api/restricted/blog/'
-user = 'kennedy'
+user = 'aronds'
 password = 'super_lockdown'
-
 def main():
     while True:
         action = input("What do you want to do with this blog api? [l]ist, [a]dd, [u]pdate, [d]elete, e[x]it: ")
